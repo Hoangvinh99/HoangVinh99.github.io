@@ -1,4 +1,35 @@
 *{margin: 0; padding: 0;}
+html{
+    scroll-behavior: smooth;
+}
+.menu1 {
+    position: fixed;
+    background-color: lightgrey;
+}
+
+.menu1 ul {
+    margin: 0;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.menu1 ul li {
+    line-height: 3;
+    border-radius: 3px;
+    border: 1px solid orange;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+.menu1 ul li:hover {
+    background: #fff;
+    transition: 0.5s;
+}
+
+.menu1 ul li a {
+    color: black;
+    text-decoration: none;
+}
 
 tr.conten td:nth-child(2) {
     border-right: white;
