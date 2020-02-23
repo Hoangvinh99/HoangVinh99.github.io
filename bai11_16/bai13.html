@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> bài 13 </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="1.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+</head>
+<body >
+		<div class="container">
+			<div class="login-form">
+				<form action="" method="">
+					<h2 class="text-center">Đăng Ký Du Lịch Tour</h2>       
+					<div class="form-group">
+                        <label for="">Họ Tên</label>
+						<input type="text" class="form-control"  required="required">
+					</div>       
+					<div class="form-group">
+                        <label for="">Địa Chỉ</label>
+						<input type="text" class="form-control"  required="required">
+					</div>       
+					<div class="form-group">
+                        <label for="">Số Điện Thoại</label>
+						<input type="text" class="form-control"  required="required">
+					</div>
+					       
+					<div class="form-group">
+                        <label for="">Khách Việt Nam</label><div class="form-check form-check-inline">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label" id="ys">
+                                    <input class="form-check-input" type="checkbox" name=""  value="checkedValue"> Yes
+                                </label>
+                                <label class="form-check-label" id="an">
+                                    <input class="form-check-input" type="checkbox" name="" value="checkedValue"> Another
+                                </label>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <label for="tour">Chọn Tour</label>
+						<select id="tour">
+                            <optgroup label="Miền Bắc">
+                                <option value="">Hà Nội-Đà Nẵng-Bình DƯơng</option>
+                                <option value="">Hà Nội- Thanh Hóa-Nghệ An</option>
+                                <option value="">Hải Phòng -Cát Bà - Tuần Châu</option>
+                            </optgroup>
+                            <optgroup label="Miền Trung">
+                                <option value="">Huế-Bạch Mã-Đà Nẵng</option>
+                                <option value="">Nha Trang- Đà Lạt</option>
+                            </optgroup>
+                            <optgroup label="Miền Nam">
+                                <option value="">TP HCM - Cần Thơ- Cà Mau</option>
+                                <option value="">TP HCM - Mỹ Tho</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    
+					       
+					<div class="form-group">
+                        <label for="">Phương Tiện</label><div class="form-check form-check-inline">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label" id="car">
+                                    <input class="form-check-input" type="checkbox" name=""  value="checkedValue"> Ô Tô
+                                </label>
+                                <label class="form-check-label" id="xm">
+                                    <input class="form-check-input" type="checkbox" name=""  value="checkedValue"> Xe Máy
+                                </label>
+                                
+                            </div>
+                        </div>
+                    </div>
+					<div class="form-group">
+                      <label for="">Ghi Chú Thêm</label>
+                      <textarea class="form-control" name="" id="" rows="3"></textarea>
+                    </div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-block" onclick="">Nhấp Đi Anh</button>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+</body>
+</html>

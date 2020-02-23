@@ -1,0 +1,303 @@
+*{margin: 0; padding: 0;}
+html{
+    scroll-behavior: smooth;
+}
+.menu1 {
+    position: fixed;
+    background-color: lightgrey;
+}
+
+.menu1 ul {
+    margin: 0;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.menu1 ul li {
+    line-height: 3;
+    border-radius: 3px;
+    border: 1px solid orange;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+.menu1 ul li:hover {
+    background: #fff;
+    transition: 0.5s;
+}
+
+.menu1 ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+tr.conten td:nth-child(2) {
+    border-right: white;
+}
+
+tr.conten td:nth-child(3) {
+    border-left: white;
+}
+
+.bai10_1 table tr td ol {
+    padding: 25px;
+}
+
+.bai10_1 table tr td ol li {
+    color: red;
+    font-weight:bold
+}
+
+.bai10_1 table tr td ol li ul li {
+    color: black;
+    font-weight:normal
+}
+
+.bai10_1 img {
+    width: 100px;
+    height: 100px;
+}
+
+.bai9_1 table {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.bai9_1 table tr:nth-child(1),th {
+    border: 2px solid #000;
+    text-align: center;
+    color: #fff;
+    background: red;
+}
+
+.bai8_1 table tr:nth-child(1) {background-color: #CC6600;color: white;}
+
+.bai8_1 table {
+    margin-left: 413px;
+    line-height: 2;
+    width: 50%;
+    font-family: cursive;
+}
+
+table .number {
+    text-align: center;
+}
+
+table tr td {}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.bai8_1 table th,td {
+    padding: 5px;
+    text-align: left;
+    border: 2px solid red;
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+
+.bai8_1 img {
+    float: left;
+}
+
+.bai8_1 {
+    background-color: #FFEDCA;
+    padding: 0 25px;
+}
+
+.bai8_1 h2 {
+    text-align: center;
+    color: #CC6600;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 20px 0;
+}
+
+.nd p {
+    font-size: 20px;
+    text-align: center;
+    background-color: pink;
+}
+
+.nd mark {
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    width: 94px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nd ul {
+    padding-left: 30px;
+    line-height: 2;
+}
+
+.bai7_1 h2 {
+    text-align: center;
+    color: #f14b68;
+    margin-bottom: 20px;
+}
+
+.bai7_1 .nd ol {
+    margin-top: 40px;
+}
+
+.bai7_1 .nd {
+    margin-left: 400px;
+}
+
+.bai7_1 img {
+    float: left;
+    margin: 20px 10px;
+    width: 350px;
+    height: 300px;
+}
+
+h2#ten {
+    background-color: orange;
+    padding: 5px 10px;
+    text-align: right;
+    color: #fff;
+}
+
+.bai6_1 u {
+    font-weight: bold;
+}
+span {
+    font-size: 60px;
+    color: red;
+    display: inline;
+    font-family: auto;
+}
+
+.khung {
+    text-align: center;
+    color: orange;
+    border: 2px solid;
+    margin: 20px 0;
+}
+
+pre {
+    text-align: center;
+    font-size: 30px;
+}
+
+.bai5_1 h2 {text-align: center;margin: 10px;color: blue;font-size: 43px;}
+
+.bai4_1 h2 {
+    text-align: center;
+    color: #008888;
+}
+
+.bai4_1 p {
+    color: #fff;
+    background: #339999;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+p.content2 {
+    background: none;
+    color: #008888;
+}
+
+.bai3_1 {
+    background-color: #A06D21;
+    background-image: url(./images/1.jpg);
+    background-attachment: fixed;
+}
+
+.bai3_1 p {
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.bai3_1 h2 {
+    text-align: center;
+    padding: 10px 0;
+    color: #FFCC00;
+}
+
+.tho {
+    background-color: #FFFFCC;
+}
+
+.tho h3:nth-child(1) {
+    color: #0000FF;
+}
+
+.tho h3:nth-child(3) {
+    color: #006600;
+}
+
+.tho h3:nth-child(2) {
+    color: red;
+}
+
+.bai2 h1:nth-child(2) {
+    color: #FF3399;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ff339959;
+    padding: 5px 0;
+}
+
+.bai2 {
+    text-align: center;
+}
+
+h1.bai {
+    color: red;
+    border-bottom: 2px solid orange;
+    text-align: left;
+}
+
+
+.title h2 {
+    color: white;
+}
+
+.title h1 {
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.title {
+    text-align: center;
+    background-color: #0000008a;
+    padding: 10px 0;
+    border-bottom: 1px solid red;
+}
+
+nav.navbar.navbar-expand-sm.navbar-dark {
+    text-align: center;
+    padding-left: 33%;
+    background-color: aquamarine;
+    border-radius: 0;
+
+}
+.navbar-brand h2{
+    color: black;
+}
+.navbar-brand h1{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+}
+div#bai1 h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-family: inherit;
+}
+
+#bai1 .h1 {
+    text-align: center;
+} 
