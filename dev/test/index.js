@@ -21,34 +21,39 @@ function showMenu(){
     var option = readLineSync.question('What do you want to choice option : ');
     switch(option){
         case '1' : 
+            console.clear();
             showListContact();
             break;
         case '2' :
+            console.clear();
             addContact();
             break;
         case '3' :
+            console.clear();
             console.log("Bạn muốn sửa tên nào: ");
             name = readLineSync.question('Name : ');
             editContact(content,name);
             break;
         case '4' : 
+        console.clear();
             console.log("Bạn muốn tim tên nào: ");
             var name = readLineSync.question('Name : ');
             deleteContact(content,name);
             break;
         case '5' : 
+            console.clear();
             console.log("Bạn muốn tim tên nào: ");
             var ten = readLineSync.question('Name : ');
             searchContact(content,ten);
             break;
         case '6' :
+            return;
             break;
         default : console.log('wrong option!!!');
         showMenu();
             break;
-
-            
     }
+    showMenu();
 }
 // hien thi thong tin danh ba
 
