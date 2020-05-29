@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title id="title"> Hoang Vinh </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="javascript/index.js"></script>
+ 	<script type="text/javascript" src="javascript/jquery.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="style.css">
+</head>
+<body >
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div>Hoàng Quang Vinh - Reacjs2002</div>
+				<hr>
+			</div>
+
+		</div>
+		<br>
+		<!-- div content -->
+		<div class="col-md-12 list">
+			<div class="list-group col-md-12">
+				<h2 >Danh Sách Bài Tập Về Nhà</h2>
+				<button class="btn btn-success click1" onclick="bai1()">Bài 1</button>
+				<button class="btn btn-success click2" >Bài 2,3</button>
+				<button class="btn btn-success click45" onclick="bai45()">Bài 4,5</button>
+				<button class="btn btn-success click67">Bài 6,7</button>
+				<button class="btn btn-success click8" onclick="bai8()">Bài 8</button>
+				<button class="btn btn-success click9" onclick="bai9()">Bài 9</button>
+				<button class="btn btn-success click10" >Bài 10</button>
+				<button class="btn btn-success click11">Bài 11</button>
+				<button class="btn btn-success click12">Bài 12</button>
+				<button class="btn btn-success click13">Bài 13</button>
+				<button class="btn btn-success click14">Bài 14</button>
+				<button class="btn btn-success click15">Bài 15</button>
+				<div class="col-md-12 box_content" id="box_content1">
+					<p id="bai1" class="hidden"></p>
+					<div class="bai2 hidden">
+						<input type="text" value="welcome to " id="bai2">
+						<button class="btn btn-warning " onclick="bai2()">Click Me</button>
+					</div>
+					<div class="bai67 hidden">
+						<button class="btn btn-warning " onclick="bai67_bg_red()">Red</button>
+						<button class="btn btn-primary " onclick="bai67_bg_blue()">Blue</button>
+						<select name="" id="color" onclick="choose()">
+							<option value="red" >Red</option>
+							<option value="blue" >Blue</option>
+							<option value="brown" >Brown</option>
+							<option value="lavender" >Lavender</option>
+						</select>
+					</div>
+					<div class="bai9 hidden">
+						<h1 class="clock" id="clock"></h1>
+					</div>
+					<div class="bai10 hidden">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+							Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas 
+							vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non 
+							fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+						<button type="button" id="showText" onclick="bai10()"> Read more</button>
+					</div>
+					<div class="bai11 hidden">
+						<label for="">To Do List</label><br>
+						<p id="temp"></p>
+						<span id="work" onclick="xoa()">Learning JavaScript</span><i class="fa fa-times"></i><br>
+						<input type="text" placeholder="+ Add your work..." id="addWork" ><br>
+						<button class="btn btn-warning" onclick="bai11()">Add Work</button>
+					</div>
+					<div class="bai12 hidden">
+							<label for="quantity " class="col-sm-2">Số Lượng:</label>
+							<input type="number" id="quantity "><br>
+							<label for="price" class="col-sm-2" >Đơn Giá:</label>
+							<input type="number" id="price" onkeyup="bai12()"><br>
+							<label for="total" class="col-sm-2">Thành Tiền</label>
+							<input type="text" id="total">
+					</div>
+					<div class="bai13 hidden">
+						<h1 id="clock1" class="clock">00:00:00</h1><br>
+						<button type="button" class="btn btn-warning" id="stop" onclick="stop()">Stop</button>
+						<button type="button" class="btn btn-info" id="start" onclick="start()">Start</button>
+						<button type="button" class="btn btn-primary" onclick="reset()">Reset</button>
+					</div>
+				</div>
+			</div> <!-- list-homework -->
+			
+		</div>
+	</div>
+</body>
+</html>
