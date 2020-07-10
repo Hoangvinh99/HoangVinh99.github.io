@@ -1,4 +1,16 @@
 *{padding: 0;margin: 0;}
+
+.footer i.fa {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.footer i.fa:hover {
+    color: orange;
+    cursor: pointer;
+}
 .title.col-md-12.text-center h2 {
     font-size: 45px;
     letter-spacing: 1px;
@@ -32,13 +44,13 @@ hr {
     position: relative;
 }
 @keyframes run{
-	to{
-		filter: hue-rotate(0deg);
-	}
-	from{
-		filter: hue-rotate(360deg);
-	}
-	
+    to{
+        filter: hue-rotate(0deg);
+    }
+    from{
+        filter: hue-rotate(360deg);
+    }
+    
 }
 .skill .title h2 {
     color: white !important;
