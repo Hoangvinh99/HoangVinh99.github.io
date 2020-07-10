@@ -84,8 +84,6 @@ table .number {
     text-align: center;
 }
 
-table tr td {}
-
 table tr:nth-child(even) {
     background-color: #fff;
 }
