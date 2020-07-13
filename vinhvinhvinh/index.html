@@ -7,17 +7,18 @@
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
  	<script type="text/javascript" src="1.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
  	<link rel="stylesheet" href="css/infor.css">
  	<link rel="stylesheet" href="css/contact.css">
  	<link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body style="font-family:-webkit-body" data-spy="scroll" data-target=".navbar" data-offset="50">
 		<!-- begin menu and information -->
  		<div class="Information" >
-                <nav class="navbar navbar-expand-sm navbar-fixed-top" id='navbar'>
+                <nav class="navbar navbar-expand-sm navbar-fixed-top" id='navbar' >
                     <p class="navbar-brand col-md-3 text-center" href="#"><span >HOÀNG</span><span id="vinh "> VINH</span> 
                     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -43,13 +44,13 @@
                     </div>
                 </nav>
                 <div class="col-md-12 font" id="home" style="background-image: url('./images/kDRPs.jpg')">
-                    <h2>Hoàng Quang Vinh</h2>
-                    <hr/>
-                    <h4>Front-End Deverloper</h4>
+                    <h2 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">Hoàng Quang Vinh</h2>
+                    <hr data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000"/>
+                    <h4 data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">Front-End Deverloper</h4>
                 </div>
-                <div class="muctieu">
+                <div class="muctieu" >
                     <div class="container">
-                        <div class="col-md-12">
+                        <div class="col-md-12" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000">
                             <h3><i class="fa fa-star"></i> Trau dồi kiến thức chuyên môn và nâng cao tay nghề</h3>
                             <h3><i class="fa fa-star"></i> Trong thời gian thực tập có thể góp phần tạo nên các sản phẩm giúp công ty hoàn thiện các dự án</h3>
                             <h3><i class="fa fa-star"></i> Trở thành Front-end Deverloper cứng trong 2 năm tới</h3>
@@ -59,14 +60,14 @@
                 <div class="container" id="infor">
                     <div class="infor">
                         <div class="row">
-                            <div class="title col-md-12 text-center">
+                            <div class="title col-md-12 text-center" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                                 <h2>INFORMATION</h2>
                                 <hr/>
                             </div>
-                            <div class="col-md-3 image">
+                            <div class="col-md-3 image" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                                 <img src="./images/avt.jpg" alt=""/>
                             </div>
-                            <div class="col-md-9 thongtin">
+                            <div class="col-md-9 thongtin" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                                 <div class="row">
                                         <div class="row1 col-md-6">
                                         <div class="container">
@@ -122,11 +123,11 @@
         <div class="skill" id="skill" style="background: url('images/bg11.png');
 													    background-size: cover;
 													    background-attachment: fixed;">
-                <div class="title col-md-12 text-center">
+                <div class="title col-md-12 text-center" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                     <h2> MY SKILL</h2>
                     <hr/>
                 </div> 
-                <div class="codingSkill">
+                <div class="codingSkill" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -185,12 +186,12 @@
                 </div>
         </div>
         <!-- begin about -->
-        <div class="about" id="about">
-                <div class="title col-md-12 text-center">
+        <div class="about" id="about" >
+                <div class="title col-md-12 text-center" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
                     <h2> ABOUT</h2>
                     <hr/>
                 </div> 
-                <div class="noidung">
+                <div class="noidung" >
                     <div class="container">
                         <div class="row">
                             <div class="softSkill col-md-4" >
@@ -253,19 +254,23 @@
                     </div>
                 </div>
         </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+              <script>
+                AOS.init();
+              </script>
         <script>
-      window.onscroll = function() {scrollFunction()};
+              window.onscroll = function() {scrollFunction()};
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-          $('.navbar').toggleClass('scrolled',$(this).scrollTop() > $('.navbar').height())
-        } else {
-          $('.navbar').removeClass('scrolled');
-        }
-      }
-      $(document).scroll(function(){
-        $('.navbar').toggleClass('scrolled',$(this).scrollTop() > $('.navbar').height())
-      })
-    </script>
+              function scrollFunction() {
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                  $('.navbar').toggleClass('scrolled',$(this).scrollTop() > $('.navbar').height())
+                } else {
+                  $('.navbar').removeClass('scrolled');
+                }
+              }
+              $(document).scroll(function(){
+                $('.navbar').toggleClass('scrolled',$(this).scrollTop() > $('.navbar').height())
+              })
+        </script>
 </body>
 </html>
